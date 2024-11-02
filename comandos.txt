@@ -1,0 +1,19 @@
+python --version
+pip install virtualenv
+virtualenv mlp_env
+mlp_env\Scripts\activate
+pip install tensorflow numpy matplotlib 
+pip install scikit-learn
+pip install Pillow
+pip install streamlit
+pip freeze > requirements.txt
+streamlit run app.py
+
+
+git --version
+git init
+git add .  
+git commit -m "rede neuronal flores iris"
+git remote add origin https://github.com/lfernandogh75/taller2iris.git
+git push -u origin master  
+deactivate
